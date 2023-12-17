@@ -44,6 +44,8 @@
 		EC34379B2B2D2E490040DC9A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC34379A2B2D2E490040DC9A /* GoogleService-Info.plist */; };
 		EC3437A02B2DCEF40040DC9A /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34379F2B2DCEF40040DC9A /* RegisterViewModel.swift */; };
 		ECF096442B2E3C30001FE5F1 /* Deneme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF096432B2E3C30001FE5F1 /* Deneme.swift */; };
+		ECF70D2C2B2F17260022B503 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF70D2B2B2F17260022B503 /* LoginViewController.swift */; };
+		ECF70D2E2B2F17390022B503 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF70D2D2B2F17390022B503 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,8 @@
 		EC34379A2B2D2E490040DC9A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EC34379F2B2DCEF40040DC9A /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		ECF096432B2E3C30001FE5F1 /* Deneme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deneme.swift; sourceTree = "<group>"; };
+		ECF70D2B2B2F17260022B503 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ECF70D2D2B2F17390022B503 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 		EC3437492B2CD3130040DC9A /* instgaramCloneFurkanSabaz */ = {
 			isa = PBXGroup;
 			children = (
+				ECF70D2A2B2F170E0022B503 /* Login */,
 				EC34375E2B2CE8A00040DC9A /* Utilities */,
 				EC34374A2B2CD3130040DC9A /* AppDelegate.swift */,
 				EC34374C2B2CD3130040DC9A /* SceneDelegate.swift */,
@@ -147,6 +152,15 @@
 				ECF096432B2E3C30001FE5F1 /* Deneme.swift */,
 			);
 			path = Register;
+			sourceTree = "<group>";
+		};
+		ECF70D2A2B2F170E0022B503 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				ECF70D2B2B2F17260022B503 /* LoginViewController.swift */,
+				ECF70D2D2B2F17390022B503 /* LoginViewModel.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,9 +270,11 @@
 				EC3437A02B2DCEF40040DC9A /* RegisterViewModel.swift in Sources */,
 				ECF096442B2E3C30001FE5F1 /* Deneme.swift in Sources */,
 				EC34374F2B2CD3130040DC9A /* RegisterViewController.swift in Sources */,
+				ECF70D2C2B2F17260022B503 /* LoginViewController.swift in Sources */,
 				EC3437602B2D21BD0040DC9A /* Ext+UIColor.swift in Sources */,
 				EC34374B2B2CD3130040DC9A /* AppDelegate.swift in Sources */,
 				EC34374D2B2CD3130040DC9A /* SceneDelegate.swift in Sources */,
+				ECF70D2E2B2F17390022B503 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
